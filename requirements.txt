@@ -1,0 +1,25 @@
+# requirements.txt
+
+# Core deep learning
+torch>=1.12
+torchvision
+
+# Vision Transformer and masking
+transformers>=4.20.0
+timm>=0.6.11
+
+# Distributed training
+accelerate>=0.20.0
+
+# Scientific computing
+numpy>=1.21.0
+scipy>=1.7.0
+scikit-learn>=1.0.0
+
+# Remote sensing I/O and image augmentation
+rasterio>=1.2.10
+albumentations>=1.0.0
+
+# Optional: visualization and debugging
+matplotlib
+opencv-python
