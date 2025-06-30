@@ -1,5 +1,3 @@
-# src/mae_pretrain.py
-
 import os
 import torch
 import torch.nn as nn
